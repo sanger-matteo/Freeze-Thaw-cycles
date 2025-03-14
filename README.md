@@ -15,17 +15,13 @@ Published in [*** XYZ ***](http...), on ...
 </h6>
 
 ## Abstract of the paper
-<h5>
-Background:
-<h5>
+<h5>Background:
 	Over the past two decades large population studies exploring the gut microbiome have resulted in the accumulation of collections of faecal samples in the freezers of laboratories. Data generated from previous microbiome measurements can be unsuitable for today’s research, due to the rapid improvement in quality and accuracy of sequencing technology, as well as more advanced bioinformatic tools. The amassed past faecal collections that lay unused could be remeasured to address new research questions, bypassing often lengthy procedure of recruiting and sampling a cohort. However, before reutilising past collections for newer microbiome analysis, it is necessary to dispel uncertainties on potential alterations the faecal microbiome composition may experience upon repeated freezing and thawing, thereby ensuring that sequencing faithfully represent the sample’s original gut microbiome composition.
 </h5> 
-Results:
-<h5>
+<h5>Results:
 	To this end, we investigated the effects that freezing and thawing (FT) and how this may alter the microbiome compositions. Specifically, we explored the effect FT cycle had on 16S rRNA sequencing and its ability to reproduce the gut microbiome composition consistently. Our study demonstrates that repeated FT cycles have minimal impact on the stability of the gut microbiome. Overall, changes due to FT cycles appear to be minor and overshadowed by interindividual effect. Repeated freezing and thawing did not compromise the ability to uniquely identify individuals using the gut microbiome, even after 6 FT cycles. Differential abundance analyses revealed that the first freezing and thawing had a few significantly altered microbial genera, when compared to the fresh, unfrozen material. Further, the two FT cycles after the first thawing showed no significant changes. 
 </h5> 
-Conclusions:
-<h5>
+<h5>Conclusions:
 	Minor changes are detected during repeated freeze and thaw cycle, restricted to the first time freezing of fresh samples and after 4 FT cycles. These findings provide confidence for the potential to reuse stored faecal samples that have been thawed only once, which opens the possibility to reutilise past collections to conduct new microbiome studies.
 </h5> 
 
