@@ -137,11 +137,14 @@ summary_stats <- rbind ( summary_stats , return_list )
 
 
 
-# ---- Shannon diversity -------------------------------------------------------
+# ---- Shannon (effective number) -------------------------------------------------------
 # Calculate Shannon diversity index
 M_Shan <- data.frame( "Values"=diversity(reduc_ASVs, index="shannon") )
 M_Shan$RowID    <- unlist( sapply( rownames(M_Shan), function(x) strsplit(x,"_")[[1]][2], simplify="array" ) )
 M_Shan$FT_cycle <- unlist( sapply( rownames(M_Shan), function(x) strsplit(x,"_")[[1]][1] ) )
+# Convert Shannon diversity index to "effective number" of species
+# https://jonlefcheck.net/2012/10/23/diversity-as-effective-numbers/ 
+M_Shan$Values <- exp(M_Shan$Values)
 dfPlot <- M_Shan
 # Transform to wider format, to better check results in a table format
 M_Shan <- pivot_wider( M_Shan, names_from=FT_cycle, values_from=Values )
@@ -155,7 +158,7 @@ hnd_Shan <- ggplot( dfPlot, aes(x=FT_cycle, y=Values, fill=FT_cycle)) +
                         lwd=0.2, fatten=2.5 ) +  
           scale_y_continuous( expand = c(0, NA), limits=c(y_Min,y_Max) ) +
           scale_fill_manual( values = c("#00C385","#103354","#19527E","#2175A8","#299CD2","#45CEF2","#77F6FF") ) +
-          xlab("")  +  ylab("Shannon index") +
+          xlab("")  +  ylab("Shannon (effective number)") +
           Theme_BoxPlot 
 if (save_subFigs){
   hnd_Shan 
@@ -206,7 +209,7 @@ summary_stats <- rbind ( summary_stats , return_list )
 
 
 # ---- Richness diversity -------------------------------------------------------
-# Calculate Simpson diversity index
+# Calculate true taxa richness
 M_Rich <- data.frame( "Values" = specnumber(reduc_ASVs) )
 M_Rich$RowID    <- unlist( sapply( rownames(M_Rich), function(x) strsplit(x,"_")[[1]][2], simplify="array" ) )
 M_Rich$FT_cycle <- unlist( sapply( rownames(M_Rich), function(x) strsplit(x,"_")[[1]][1] ) )
@@ -287,7 +290,7 @@ summary_stats <- rbind ( summary_stats , return_list )
 
 
 
-# ---- Bray-Curtis diversity -------------------------------------------------------
+# ---- Bray-Curtis dissimilarity -------------------------------------------------------
 # Calculate the metric. However, the vegan calculates all possible combinations
 # of samples pairs. We are interested in all of them: namely only C0, as a 
 # reference, against all other CX, for each individual.
@@ -313,7 +316,7 @@ hnd_BC <- ggplot( dfPlot, aes(x=FT_cycle, y=Values, fill=FT_cycle)) +
                         lwd=0.2, fatten=2.5 ) + 
           scale_y_continuous( expand = c(0, NA), limits=c(0, 1)) +
           scale_fill_manual( values = c("#103354","#19527E","#2175A8","#299CD2","#45CEF2","#77F6FF") ) +
-          xlab("")  +  ylab("Bray-Curtis similarity") +
+          xlab("")  +  ylab("Bray-Curtis dissimilarity") +
           Theme_BoxPlot
 if (save_subFigs){
   hnd_BC
@@ -329,7 +332,7 @@ summary_stats <- rbind ( summary_stats , return_list )
 
 
 
-# ---- Aitchison diversity -------------------------------------------------------
+# ---- Aitchison similarity -------------------------------------------------------
 # Calculate the metric. However, the vegan calculates all possible combinations
 # of samples pairs. We are interested in all of them: namely only C0, as a 
 # reference, against all other CX, for each individual.
