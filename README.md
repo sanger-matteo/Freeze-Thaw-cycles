@@ -58,27 +58,11 @@ The following figures showcase the results:
 ## Usage
 To run these scripts, the following R packages are required:
 #### Visualization:
-- `ggplot2`
-- `cowplot`
-- `tiff`
-- `ggrepel`
-- `ggtext`
-- `showtext`
+- `ggplot2`, `cowplot`, `tiff`, `ggrepel`, `ggtext`, `showtext`
 #### Data Manipulation:
-- `readr`
-- `stringr`
-- `tidyr`
-- `tibble`
-- `dplyr`
-#### Statistical Analysis:
-- `Rtsne`
-- `mixOmics`
-- `nlme`
-- `nortest`
-- `rstatisitx`
-- `vegan`
-- `Maaslin2`
-- `ALDEx2`
+- `readr`, `stringr`, `tidyr`, `tibble`, `dplyr`
+#### Statistical Analysis: 
+- `Rtsne`, `mixOmics`, `nlme`, `nortest`, `rstatisitx`, `vegan`, `Maaslin2`, `ALDEx2`
 
 #### Setup Instructions:
 In each script, change the variable `cDir_Rscript` to the "absolute path" of the repository on the machine running the code. All other paths are relative to this and follow Unix/MacOS format.
