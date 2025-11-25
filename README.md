@@ -15,9 +15,8 @@ Published in [*** XYZ ***](http...), on ...
 </h6>
 
 ## Abstract of the paper
-<h5>Reanalysing previously collected samples to address new research questions offers a time-efficient alternative to initiating new cohort studies. However, concerns remain regarding the stability of the faecal microbiome following repeated freeze–thaw (FT) cycles, which may introduce bias in downstream analyses.
+Reanalysing previously collected samples to address new research questions offers a time-efficient alternative to initiating new cohort studies. However, concerns remain regarding the stability of the faecal microbiome following repeated freeze–thaw (FT) cycles, which may introduce bias in downstream analyses.
 To this end, we investigated the effect repeated FT cycles had on 16S rRNA gene sequencing and its ability to accurately measure the gut microbiome composition consistently. Our analysis showed that inter-individual sample differences consistently outweighed any effects introduced by FT. Differential abundance analysis with MaAsLin2 identified a limited number of significantly altered microbial genera after the first FT, when compared to the fresh, unfrozen material. The following second and third FT cycles showed no significant changes compared to the first FT cycle. Subsequent cycles (four to six) showed minor but progressive shifts in specific taxa. However, analysis with the more conservative method ALDEx2 showed no significant changes across any FT cycle. These findings support the reuse of stored faecal samples that have undergone a single thaw, suggesting minimal risk of compromising microbiome integrity.
-</h5> 
 
 ## Description of the Scripts
 This repository includes several scripts used in the study. Below is a brief overview of each:
