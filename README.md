@@ -9,9 +9,9 @@ Published in [*** Sicentific Report ***](http...), on 9th February 2026
 **Matteo Sangermani**<sup>1,2</sup>, Indri Desiati<sup>3</sup>, Nicole Quattrini<sup>1</sup>, Guro F. Giskeødegård<sup>1,2</sup>
 
 <h6>
-<sup>1</sup> Dep. of Public Health and Nursing NTNU, Trondheim. 
+<sup>1</sup> HUNT Center for Molecular and Clinical Epidemiology, Department of Public Health and Nursing, Norwegian University of Science and Technology, Trondheim. 
 <sup>2</sup> Dep of Surgery, St. Olavs University Hospital, Trondheim. 
-<sup>3</sup> Dep. of Circulation and Medical Imaging, NTNU, Trondheim. 
+<sup>3</sup> Dep. of Circulation and Medical Imaging, Norwegian University of Science and Technology, Trondheim. 
 </h6>
 
 ## Abstract of the paper
