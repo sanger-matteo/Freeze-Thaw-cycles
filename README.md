@@ -1,9 +1,9 @@
 This repository contains scripts is associated with the article:  
 
 ## Effects of repeated freeze and thaw cycles on the stability of faecal microbiome composition.
-Published in [*** Sicentific Report ***](http...), on 9th February 2026
+Published in [*** Sicentific Report ***](https://www.nature.com/articles/s41598-026-39939-w), on 9th February 2026
 
-[DOI: XYZ](http...)
+[DOI: 10.1038/s41598-026-39939-w](https://doi.org/10.1038/s41598-026-39939-w)
 
 #### Authors
 **Matteo Sangermani**<sup>1,2</sup>, Indri Desiati<sup>3</sup>, Nicole Quattrini<sup>1</sup>, Guro F. Giskeødegård<sup>1,2</sup>
