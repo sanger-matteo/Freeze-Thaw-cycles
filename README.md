@@ -1,4 +1,4 @@
-This repository contains scripts is associated with the article:  
+This repository contains scripts associated with the article:  
 
 ## Effects of repeated freeze and thaw cycles on the stability of faecal microbiome composition.
 Published in [***Scientific Report***](https://www.nature.com/articles/s41598-026-39939-w), on 9th February 2026
